@@ -1,0 +1,67 @@
+<html>
+  <head>
+  <title>Diamante Hommel com CSS</title>
+  </head>
+  <body>
+    <div class="retangulo">
+      <div class="metade-superior"><div style="transform: rotate(-45deg)">1</div></div>
+      <div class="metade-inferior"></div>
+      <div class="metade-esquerda"></div>
+      <div class="metade-direita"></div>
+    </div>
+    <script>
+      div.retangulo {
+        margin: 30px 50px;
+        line-height: 0;
+        width: 140px;
+        height: 140px;
+        border: 1px solid;
+        display: inline-block;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+      }
+      div.metade-superior {
+          line-height: 0;
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-color: #f60000;
+          border-width: 35px;
+          transform: rotate(0deg)
+      }
+      div.metade-esquerda {
+          line-height: 0;
+          width: 0;
+          height: 0;
+          display: inline-block;
+          border-style: solid;
+          border-color: #52ccfe;
+          border-width: 35px;
+      }
+      div.metade-inferior {
+          line-height: 0;
+          width: 0;
+          height: 0;
+          float: right;
+          display: inline-block;
+          border-style: solid;
+          border-color: #fdff33;
+          border-width: 35px;
+      }
+      div.metade-direita {
+          line-height: 0;
+          width: 0;
+          height: 0;
+          float: right;
+          display: inline-block;
+          border-style: solid;
+          border-color: #fff;
+          border-width: 35px;
+      }
+    </script>
+  </body>
+</html>
